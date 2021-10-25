@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ErrorBeatz MathematicsEQ - Standalone Plugin", "ErrorBeatz MathematicsEQ_StandalonePlugin.vcxproj", "{1BB4831B-79D7-F923-D293-F40972E32634}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D139E530-5377-0629-7B8E-79B33E6E969E} = {D139E530-5377-0629-7B8E-79B33E6E969E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ErrorBeatz MathematicsEQ - VST3", "ErrorBeatz MathematicsEQ_VST3.vcxproj", "{FA556496-8927-EA3D-C03A-5C8367EE4FF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D139E530-5377-0629-7B8E-79B33E6E969E} = {D139E530-5377-0629-7B8E-79B33E6E969E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ErrorBeatz MathematicsEQ - Shared Code", "ErrorBeatz MathematicsEQ_SharedCode.vcxproj", "{D139E530-5377-0629-7B8E-79B33E6E969E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA556496-8927-EA3D-C03A-5C8367EE4FF2}.Debug|x64.ActiveCfg = Debug|x64
+		{FA556496-8927-EA3D-C03A-5C8367EE4FF2}.Debug|x64.Build.0 = Debug|x64
+		{FA556496-8927-EA3D-C03A-5C8367EE4FF2}.Release|x64.ActiveCfg = Release|x64
+		{FA556496-8927-EA3D-C03A-5C8367EE4FF2}.Release|x64.Build.0 = Release|x64
+		{1BB4831B-79D7-F923-D293-F40972E32634}.Debug|x64.ActiveCfg = Debug|x64
+		{1BB4831B-79D7-F923-D293-F40972E32634}.Debug|x64.Build.0 = Debug|x64
+		{1BB4831B-79D7-F923-D293-F40972E32634}.Release|x64.ActiveCfg = Release|x64
+		{1BB4831B-79D7-F923-D293-F40972E32634}.Release|x64.Build.0 = Release|x64
+		{D139E530-5377-0629-7B8E-79B33E6E969E}.Debug|x64.ActiveCfg = Debug|x64
+		{D139E530-5377-0629-7B8E-79B33E6E969E}.Debug|x64.Build.0 = Debug|x64
+		{D139E530-5377-0629-7B8E-79B33E6E969E}.Release|x64.ActiveCfg = Release|x64
+		{D139E530-5377-0629-7B8E-79B33E6E969E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
